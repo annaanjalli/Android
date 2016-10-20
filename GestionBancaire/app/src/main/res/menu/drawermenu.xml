@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- **** Place Your Content Here **** -->
+
+    <View android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/dropshadow"/>
+
+
+    <!--
+
+    <item android:title="Inbox"
+        android:id="@+id/nav_item_inbox"
+        android:icon="@drawable/inbox"/>
+
+    -->
+
+
+
+    <item android:title="Client"
+        android:id="@+id/nav_item_client"
+        android:icon="@drawable/client"
+        />
+
+    <item android:title="Retrait"
+        android:id="@+id/nav_item_sent"
+        android:icon="@drawable/sent"/>
+
+    <item android:title="Versement"
+        android:id="@+id/nav_item_versement"
+        android:icon="@drawable/payment"/>
+
+
+
+    <item android:title="Autres opérations">
+        <menu>
+            <item
+                android:title="Situation"
+                android:id="@+id/nav_item_situation"
+                android:icon="@drawable/spam"/>
+            <item
+                android:title="Mouvements"
+                android:id="@+id/nav_item_mouvement"
+                android:icon="@drawable/bin"/>
+        </menu>
+    </item>
+
+    <group android:id="@+id/group_settings_id">
+
+        <item android:title="Settings"
+            android:icon="@drawable/settings"/>
+        <item android:title="Help"
+            android:icon="@drawable/help"/>
+    </group>
+
+
+</menu>

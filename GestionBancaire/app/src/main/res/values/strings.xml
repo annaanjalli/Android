@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GestionBancaire</string>
+
+    <string name="empty_list_text">something text </string>
+
+    <string name="add_record">Add record</string>
+
+    <string name="enter_numCompte">numero compte</string>
+    <string name="enter_nomClient">nom client</string>
+    <string name="enter_solde">solde</string>
+
+
+    <string name="btn_update">Modifier</string>
+    <string name="btn_delete">Supprimer</string>
+
+</resources>
